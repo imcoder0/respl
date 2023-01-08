@@ -1,0 +1,53 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+    padding-bottom:3rem;
+    border-radius: 10px;
+
+}
+.koo{
+    padding:0 30rem;
+    
+    border-radius: 1rem;
+}
+form h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+}
+form input{
+    color: black;
+    width: 20rem;
+    padding: 0.5rem;
+    font-size: larger;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: .5rem;
+}
+form button{
+    width: 21.3rem;
+    padding: 0.5rem;
+    border-radius:.3rem ;
+    background-color: palevioletred;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+}
+@media only screen and (max-width:768px) and (min-width:320px){
+    .koo{
+        padding: 1rem;
+
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+    .koo{
+        padding: 10rem;
+
+
+    }
+}

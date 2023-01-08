@@ -1,0 +1,132 @@
+body{
+    font-family: 'Yeon Sung', cursive;
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (min-width: 320px)and (max-width: 480px){
+    body{
+        margin:     rem;
+    }
+
+} 
+.vid-back{
+    position: relative;
+    width: 100%;
+    height: 100vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.815);
+    background-blend-mode: overlay;
+    text-align: center;
+}
+.vid-back video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+.vid-content h1{
+    font-size: 3rem;
+}
+.vid-content p{
+    font-size: 1.5rem;
+
+}
+ .btn-about{
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Yeon Sung', cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.btn-about:hover{
+  background-color:rgb(86, 192, 228) ;
+}
+.vid-content .btn-about a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    padding: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    border: 2px solid aqua;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+nav ul li a:hover{
+    color: rgb(0, 128, 255) ;
+}
+nav button{
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Yeon Sung', cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+nav button:hover{
+    background-color:rgb(86, 192, 228) ;
+}
+.home{
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.home h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.home p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav button a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: rgb(10, 10, 10);
+    font-size:1rem ;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+}
